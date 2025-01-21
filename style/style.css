@@ -386,8 +386,15 @@ footer{
        margin-right: 10px;
        margin-bottom: 10px;
     }
+    .responsive-enroll{
+        margin-left: 160px;
+    }
     .home-container{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+    .hero-kids{
+        margin-left: 40px;
     }
     .logo-school{
         display: none;
