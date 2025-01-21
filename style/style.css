@@ -6,8 +6,14 @@
         font-weight: 500;
         font-style: normal; 
         background-image:url(../assets/bg.png);
+
      } 
-     
+main{
+    background: -webkit-linear-gradient(bottom, rgba(255, 166, 0, 0.315),white);
+
+
+}
+
 *{
  margin: 0;
  padding:0;
@@ -52,7 +58,7 @@
 .y{
     color: rgb(0, 238, 255);
 }
-.b{
+.bc{
     color: coral;
 }
 .nav-btn{
@@ -159,7 +165,7 @@
     background: -webkit-linear-gradient(bottom,white, rgb(87, 242, 87) );
  
  }
-
+ 
  /* icon section  */
  .icon-arow{
     max-width: 1440px;
@@ -204,32 +210,32 @@
 .left-big-card{
     height: 700px;
     width: 580px;
-    background-color: bisque;
+    background-color: white;
     border-radius: 30px;
     
 }
 .right-fourcard{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 300px;
-    width: 350px;
-    gap: 30px;
-   margin-left: 40px;
+    /* height: 300px;
+    width: 350px; */
+    gap: 50px;
+   margin-left: 50px;
    padding-bottom: 50px;
 
    
 }
 .card{
     border: none;
-    height: 360px;
-    background-color: brown;
+    height: 350px;
+    background-color:white;
     border-radius: 20px;
-    width: 370px;
-
-    
+    width: 370px; 
 }
 .small-4card{
     width: 370px;
+    height: 200px;
+
 }
 .card-text-big{
     padding: 30px;
@@ -276,19 +282,78 @@
 
 .small-card-btn{
     height: 50px;
-    width: 160px;
+    width: 210px;
     border-radius: 30px;
     margin-top: -20px;
-    margin-left: 30px;
-
-    
-    
+    margin-left: 30px;  
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.small-card-btn:hover{
+    height: 55px;
+    width: 220px;
+    background-color: black;
 }
 
+.a{
+    background-color: rgb(255, 106, 0);
+}
 
+.b{
+    background-color: orange;
+}
+.c{
+    background-color: rgb(178, 172, 6);
+}
+.d{
+    background-color: brown;
+}
+.button-vew{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.view-all{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* main section end  */
 
+/* footer section start */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(1, 172, 253, 1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px;
+}
 
-
+.left-logo{
+    color: white;
+}
+.last-logo{
+    display: flex;
+   margin-bottom: 30px;
+}
+.footer-header{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left-logo-p{
+    font-size: 20px;
+    font-weight: 400;
+}
 @media only screen and (max-width:576px) {
     .home-container{
         flex-direction: column;
@@ -319,5 +384,20 @@
     .icon-arow{
         display: none;
     }
-   
+   .left-big-card{
+    display: none;
+   }
+   .right-fourcard{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+   margin-left: 90px;
+   padding-bottom: 50px;
+}
+.view-all{
+    margin: auto;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
 }
