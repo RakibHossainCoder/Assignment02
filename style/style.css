@@ -335,7 +335,8 @@ footer{
     background-color: rgba(1, 172, 253, 1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 70px;
+    padding: 100px;
+    gap: 200px;
 }
 
 .left-logo{
@@ -349,11 +350,31 @@ footer{
     font-size: 2rem;
     margin-top: 20px;
     margin-left: 20px;
+    font-weight: 500;
 }
 .left-logo-p{
     font-size: 20px;
     font-weight: 400;
 }
+.about-school{
+    color: white;
+    
+}
+.snd-line{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+   
+}
+.right-footer-h{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: -35px;
+}
+    
+
 @media only screen and (max-width:576px) {
     .home-container{
         flex-direction: column;
@@ -399,5 +420,16 @@ footer{
     margin-left: 160px;
     margin-bottom: 50px;
 }
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(1, 172, 253, 1);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px;
+    gap: 200px;
+}
+
 
 }
