@@ -380,8 +380,10 @@ footer{
 }
 .checkbtn{
     display: none;
-}    
-
+}  
+.foorer-icon{
+    margin-left: 20px;
+}  
 @media only screen and (max-width:576px) {
     .checkbtn{
         display: flex;
@@ -456,6 +458,13 @@ footer{
 footer{
     gap: 80px;
 }
+.card-repeth{
+    margin-bottom: 40px;
+}
+}
 
-
+@media only screen and (min-width: 576px)  {
+    .repet-two-card{
+        display: none    
+    }
 }
