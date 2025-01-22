@@ -384,6 +384,9 @@ footer{
 .foorer-icon{
     margin-left: 20px;
 }  
+.marquee{
+    max-width: 1440px;
+}
 @media only screen and (max-width:576px) {
     .checkbtn{
         display: flex;
